@@ -9,6 +9,9 @@
 # ----- This also maps the users home directory into the container
 # ----- as the "/host" mount point
 #
+# ----- to view the possible resolutions, exec into the running container
+# ---- and look at the /etc/X11/xorg.conf file
+#
 CONTAINER=kivy
 #docker run -it --rm -e NEWUID=$(id -u) -e NEWGID=$(id -g)	\
 docker run -d -P -e NEWUSER=$(id -un) -e NEWUID=501 -e NEWGID=20	\

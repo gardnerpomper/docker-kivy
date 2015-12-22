@@ -12,8 +12,8 @@ result of copying from a couple other projects and tweaking a
 little. Most of my work is contained in the scripts for configuring
 the user and the screen resolution. The two main sources for finding
 out how the container works are:
-- [[https://github.com/thewtex/docker-opengl][docker-opengl]] - the opengl and NOVNC configuration
-- [[https://github.com/alej0varas/kivy-docker][kivy-docker]] - the kivy setup
+- [thewtex/docker-opengl](https://github.com/thewtex/docker-opengl) - the OPENgl and noVNC configuration
+- [alej0varas/kivy-docker](https://github.com/alej0varas/kivy-docker) - the kivy setup
 
 ## Running the container
 A sample script, run.sh, is included to run the container. It also
